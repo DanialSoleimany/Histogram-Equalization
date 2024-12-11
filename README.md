@@ -110,6 +110,7 @@ This repository shows how to use **histogram equalization** to improve image con
    def apply_histogram_equalization(image_path):
        # Code for processing images (see above for details)
    ```
+   
 ### 3. Apply on Images
 At the end of the `histogram_equalization.ipynb` file, run this code to process all images in the `input_folder`, apply histogram equalization, and save the enhanced images to the `output_folder` with the prefix `equalized_`. This will convert all low-contrast images into high-contrast versions and save them automatically.
 
@@ -137,6 +138,11 @@ for image_file in os.listdir(input_folder):
      - Input vs. output images.
 
 --- 
+### Main Results:
+
+| **Result 1** | **Result 2** | **Result 3** |
+|--------------|--------------|--------------|
+| ![Result 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-1.png) | ![Result 2](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-2.png) | ![Result 3](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-3.png) |
 
 ## Applications
 - Image preprocessing for computer vision.
