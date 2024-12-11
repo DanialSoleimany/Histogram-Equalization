@@ -101,16 +101,6 @@ This repository shows how to use **histogram equalization** to improve image con
    def apply_histogram_equalization(image_path):
        # Code for processing images (see above for details)
    ```
----
-
-1. Place low-contrast images in the `low contrast images/` folder.
-2. Run the script or Jupyter Notebook.
-3. Results:
-   - Enhanced images saved in `high contrast images/`.
-   - Visualizations display:
-     - Input vs. output histograms.
-     - Input vs. output images.
-
 ### 3. Apply on Images
 At the end of the `histogram_equalization.ipynb` file, run this code to process all images in the `input_folder`, apply histogram equalization, and save the enhanced images to the `output_folder` with the prefix `equalized_`. This will convert all low-contrast images into high-contrast versions and save them automatically.
 
@@ -126,6 +116,16 @@ for image_file in os.listdir(input_folder):
         print(f"Processed {image_file} -> {output_path}")
         print("\n\n\n")
 ```
+
+---
+
+1. Place low-contrast images in the `low contrast images/` folder.
+2. Run the `histogram_equalization.ipynb` notebook
+3. Results:
+   - Enhanced images saved in `high contrast images/`.
+   - Visualizations display:
+     - Input vs. output histograms.
+     - Input vs. output images.
 
 ### Example Output:
 #### Original vs Equalized Image:
