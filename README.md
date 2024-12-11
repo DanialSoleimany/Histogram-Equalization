@@ -2,8 +2,6 @@
 
 This repository shows how to use **histogram equalization** to improve image contrast. While there are extra files for learning and tutorials, the main process is in the `histogram_equalization.ipynb` notebook. To convert low-contrast images to high-contrast, just run this notebook.
 
-#### Original vs. Equalized Images:
-
 | **Original Image** | **Equalized Image** |
 |--------------------|---------------------|
 | ![Low Contrast Image 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/1.png) | ![Equalized Image 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_1.png) |
@@ -42,16 +40,17 @@ This repository shows how to use **histogram equalization** to improve image con
 ```plaintext
 /
 ├── high contrast images/                        # Output folder for processed images
-├── Initialize                                   # to generate random images and their results
+├── Initialize                                   # Generate random images and their results
 ├── low contrast images/                         # Input folder for low-contrast images
+├── main results/                                # Results of histogram equalizations on images and their histograms
 ├── results/                                     # Additional results (Excel or processed data of random generated images)
 ├── 5x5 Intensity Histogram.ipynb                # How to calculate histogram of array (pixels in image)
-├── histogram_equalization.ipynb                 # main file to run
-├── histogram_equalization_presentation.pptx     # powerpoint of histogram equalization
-├── histogram_equalization_results.xlsx          # this is the result equalizing random generated images
+├── histogram_equalization.ipynb                 # Main file to run
+├── histogram_equalization_presentation.pptx     # Powerpoint of histogram equalization
+├── histogram_equalization_results.xlsx          # This is the result equalizing random generated images
 ├── How cumsum works.ipynb                       # How cumsum func works in numpy
 ├── Original Image Histogram.ipynb               # Steps of histogram equalization step by step
-├── sample.png                                   # sample image of equalized image
+├── sample.png                                   # Sample image of equalized image
 ```
 
 ---
@@ -137,6 +136,22 @@ for image_file in os.listdir(input_folder):
      - Input vs. output images.
 
 --- 
+
+### Main Results:
+
+| **Result 1** |
+|--------------|
+| ![Result 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-1.png) |
+
+| **Result 2** |
+|--------------|
+| ![Result 2](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-2.png) |
+
+| **Result 3** |
+|--------------|
+| ![Result 3](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-3.png) |
+
+---
 
 ## Applications
 - Image preprocessing for computer vision.
