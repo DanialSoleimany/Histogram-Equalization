@@ -43,6 +43,7 @@ This repository shows how to use **histogram equalization** to improve image con
 ├── high contrast images/                        # Output folder for processed images
 ├── Initialize                                   # to generate random images and their results
 ├── low contrast images/                         # Input folder for low-contrast images
+├── main results/                                # Results after applying histogram equalization on images and their histograms
 ├── results/                                     # Additional results (Excel or processed data of random generated images)
 ├── 5x5 Intensity Histogram.ipynb                # How to calculate histogram of array (pixels in image)
 ├── histogram_equalization.ipynb                 # main file to run
