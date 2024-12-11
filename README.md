@@ -1,4 +1,3 @@
-
 # Histogram Equalization for Image Processing
 
 This repository shows how to use **histogram equalization** to improve image contrast. While there are extra files for learning and tutorials, the main process is in the `histogram_equalization.ipynb` notebook. To convert low-contrast images to high-contrast, just run this notebook.
@@ -129,8 +128,11 @@ for image_file in os.listdir(input_folder):
 
 ### Example Output:
 #### Original vs Equalized Image:
-![Sample Output](sample.png)
 
+![Sample Outputs](sample.png)
+![Equalized Image 3](high contrast images/equalized_1.png)
+![Equalized Image 2](high contrast images/equalized_2.png)
+![Equalized Image 3](high contrast images/equalized_3.png)
 ---
 
 ## Applications
