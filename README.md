@@ -2,13 +2,19 @@
 
 This repository shows how to use **histogram equalization** to improve image contrast. While there are extra files for learning and tutorials, the main process is in the `histogram_equalization.ipynb` notebook. To convert low-contrast images to high-contrast, just run this notebook.
 
-#### Original vs. Equalized Images:
+### Main Results:
 
-| **Original Image** | **Equalized Image** |
-|--------------------|---------------------|
-| ![Low Contrast Image 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/1.png) | ![Equalized Image 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_1.png) |
-| ![Low Contrast Image 2](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/2.png) | ![Equalized Image 2](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_2.png) |
-| ![Low Contrast Image 3](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/3.png) | ![Equalized Image 3](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_3.png) |
+| **Result 1** |
+|--------------|
+| ![Result 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-1.png) |
+
+| **Result 2** |
+|--------------|
+| ![Result 2](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-2.png) |
+
+| **Result 3** |
+|--------------|
+| ![Result 3](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/main%20results/result-3.png) |
 
 ---
 
