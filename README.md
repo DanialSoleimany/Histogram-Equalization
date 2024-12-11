@@ -4,9 +4,13 @@ This repository shows how to use **histogram equalization** to improve image con
 
 #### Original vs. Equalized Images:
 
-**Original Image vs Equalized Image:**
-![Sample Output](sample.png)
-![Equalized Image 1](high contrast images/equalized_1.png) ![Equalized Image 2](high contrast images/equalized_2.png) ![Equalized Image 3](high contrast images/equalized_3.png)
+**Original Image:**
+![Low Contrast Image](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/1.png)
+
+**Equalized Images:**
+![Equalized Image 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_1.png)
+![Equalized Image 2](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_2.png)
+![Equalized Image 3](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_3.png)
 
 ---
 
