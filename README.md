@@ -6,6 +6,8 @@ This repository shows how to use **histogram equalization** to improve image con
 
 **Original Image:**
 ![Low Contrast Image](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/1.png)
+![Low Contrast Image](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/2.png)
+![Low Contrast Image](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/low%20contrast%20images/3.png)
 
 **Equalized Images:**
 ![Equalized Image 1](https://github.com/DanialSoleimany/Histogram-Equalization/blob/master/high%20contrast%20images/equalized_1.png)
