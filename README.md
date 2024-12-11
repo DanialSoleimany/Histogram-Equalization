@@ -1,10 +1,7 @@
-Here's a professional `README.md` for your GitHub project:
-
----
 
 # Histogram Equalization for Image Processing
 
-This repository implements **histogram equalization**, a technique for enhancing image contrast. The code processes low-contrast images and transforms them into high-contrast ones while visualizing both histograms and images for comparison.
+This repository shows how to use **histogram equalization** to improve image contrast. While there are extra files for learning and tutorials, the main process is in the `histogram_equalization.ipynb` notebook. To convert low-contrast images to high-contrast, just run this notebook.
 
 ## Features
 - Processes images from a folder and saves the results.
@@ -35,16 +32,17 @@ This repository implements **histogram equalization**, a technique for enhancing
 
 ```plaintext
 /
-├── high contrast images/       # Output folder for processed images
-├── low contrast images/        # Input folder for low-contrast images
-├── results/                    # Additional results (e.g., Excel or processed data)
-├── 5x5 Intensity Histogram.ipynb
-├── histogram_equalization.ipynb
-├── histogram_equalization_presentation.pptx
-├── histogram_equalization_results.xlsx
-├── How cumsum works.ipynb
-├── Original Image Histogram.ipynb
-├── sample.png
+├── high contrast images/                        # Output folder for processed images
+├── Initialize                                   # to generate random images and their results
+├── low contrast images/                         # Input folder for low-contrast images
+├── results/                                     # Additional results (Excel or processed data of random generated images)
+├── 5x5 Intensity Histogram.ipynb                # How to calculate histogram of array (pixels in image)
+├── histogram_equalization.ipynb                 # main file to run
+├── histogram_equalization_presentation.pptx     # powerpoint of histogram equalization
+├── histogram_equalization_results.xlsx          # this is the result equalizing random generated images
+├── How cumsum works.ipynb                       # How cumsum func works in numpy
+├── Original Image Histogram.ipynb               # Steps of histogram equalization step by step
+├── sample.png                                   # sample image of equalized image
 ```
 
 ---
@@ -103,29 +101,7 @@ This repository implements **histogram equalization**, a technique for enhancing
    def apply_histogram_equalization(image_path):
        # Code for processing images (see above for details)
    ```
-
-### 3. Main Script: Batch Processing
-
-Processes all images in a folder (`low contrast images/`) and saves the results in `high contrast images/`:
-```python
-input_folder = "./low contrast images"
-output_folder = "./high contrast images"
-os.makedirs(output_folder, exist_ok=True)
-
-for image_file in os.listdir(input_folder):
-    if image_file.lower().endswith(('.png', '.jpg', '.jpeg')):
-        input_path = os.path.join(input_folder, image_file)
-        output_path = os.path.join(output_folder, f"equalized_{image_file}")
-
-        # Apply histogram equalization
-        equalized_image = apply_histogram_equalization(input_path)
-        equalized_image.save(output_path)
-        print(f"Processed {image_file} -> {output_path}")
-```
-
 ---
-
-## Example
 
 1. Place low-contrast images in the `low contrast images/` folder.
 2. Run the script or Jupyter Notebook.
@@ -152,5 +128,3 @@ for image_file in os.listdir(input_folder):
 This project is licensed under the MIT License.
 
 --- 
-
-Let me know if you need help customizing it further!
